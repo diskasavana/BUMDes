@@ -87,9 +87,11 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <video control autoplay loop playsinline id="background-video">
-      <source src="<?= base_url('assets/video/COMPRO AMARTA FIX.mp4') ?>" type="video/mp4" />
-      Browsermu tidak mendukung tag ini, upgrade donk!
+  <!-- <iframe  width="1300" height="600" src="https://drive.google.com/file/d/16w01S3rYRBjJhvAxRclJKAnLpbtVauaj/view?usp=sharing"></iframe> -->
+<!-- `    <video control autoplay loop playsinline id="background-video">` -->
+    <iframe width="1200" height="690" src="https://www.youtube.com/embed/JVtsM0cr-Uc?si=4doO9tYNCNwz7Qa4" title="YouTube video player" 
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <!-- Browsermu tidak mendukung tag ini, upgrade donk! -->
     </video>
     
   </section><!-- End Hero -->
@@ -101,12 +103,12 @@
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
           <div>
             <h1>Bergerak   Bersama   Masyarakat</h1>
-            <h2>Kerja sama BUMDes dengan AMIKOM</h2>
-            <a href="login.html" class="btn-get-started scrollto">Get Started</a>
+            <h3>Kerja sama BUMDes dengan AMIKOM</h3>
+            <a href="login.html" class="btn btn-primary">Get Started</a>
           </div>
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
-          <img src="<?= base_url('assets/img/hero-img.png') ?>" class="img-fluid" alt="">
+        <div class="col-lg-6 order-1 order-lg-2 hero-img ml-auto" data-aos="fade-left">
+          <img src="<?= base_url('assets/img/Hero-img.png') ?>" class="img-fluid" alt="">
         </div>
       </div>
     </div>
@@ -119,21 +121,31 @@
     <section id="about" class="about">
       <div class="container">
 
-        <div class="row">
-          <div class="col-lg-6" data-aos="zoom-in">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 d-flex flex-column justify-contents-center" data-aos="fade-left">
+      <div class="row">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <img src="<?= base_url('assets/img/about.png') ?>" class="card-img" alt="Gambar Card">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Tentang BUMDes</h5>
+                <p class="card-text">BUMDesa Amarta Pandowoharjo merupakan suatu kumpulan dari usaha-usaha yang berlokasikan di Desa Pandowoharjo, Kec. Sleman. Kab. Sleman. Yogyakarta.</p>
+                <a href="<?php echo base_url('detail'); ?>" class="btn btn-primary">Baca Selengkapnya</a>
+            </div>
+        </div>
+    </div>
+</div>
+          <!-- <div class="col-lg-6 d-flex flex-column justify-contents-center" data-aos="fade-left">
             <div class="content pt-4 pt-lg-0">
               <h3>About us</h3>
               <p class="fst-italic">
-                BUMDes Amarta yang berlokasi di Desa Pandowoharjo, Sleman, adalah salah satu BUMDes sukses di D.I. Yogyakarta yang menjadi rujukan bagi ribuan BUMDes lainnya untuk belajar membangun manajemen usaha BUMDes sukses yang inovatif, terus berkembang, inovatif, dan selalu terbuka pada prospek baru meskipun tidak langsung berskala besar. BUMDes Amarta awalnya berfokus pada pengelolaan sampah. Hal ini dilatarbelakangi oleh keinginan untuk menyediakan lingkungan yang sehat dan bersih bagi masyarakat. BUMDes Amarta mengelola Tempat Pengelolaan Sampah (TPS) yang belum dikelola dengan baik. BUMDes Amarta melihat sampah sebagai potensi dan peluang untuk mengembangkan BUMDes yang sukses dengan memberikan banyak manfaat kepada masyarakat desa. 
+              BUMDesa Amarta Pandowoharjo merupakan suatu kumpulan dari usaha-usaha yang berlokasikan di Desa Pandowoharjo, Kec. Sleman. Kab. Sleman. Yogyakarta.Berdiri sejak tahun 2016, yang memiliki Visi “Bersinergi Mewujudkan Desa Mandiri”, akan terus berkembang dan berinovasi, mengajak para Masyarakat untuk memajukan perekonomian Desa Pandowoharjo. Pada awalnya, BUMDesa Amarta Pandowoharjo mengelola unit Tempat Pengolahan Sampah, dan seiring berjalannya waktu, banyak mitra dan inovasi yang terus dikembangkan dan bekerjasama hingga saat ini. Sudah terdapat 5 unit usaha yang diunggulkan, mulai dari Pengelolaan Sampah, Kolam Renang, Toko Desa, Beras, dan Taman Kuliner. Tidak hanya itu, BUMDesa Amarta Pandowoharjo juga bekerjasama dengan usaha-usaha rumahan seperti, Batik Sekar Idaman, Gethuk Madu, Klanting, Ampyang Jahe dan beberapa UMKM lainnya.BUMDes Amarta awalnya berfokus pada pengelolaan sampah. Hal ini dilatarbelakangi oleh keinginan untuk menyediakan lingkungan yang sehat dan bersih bagi masyarakat. BUMDes Amarta mengelola Tempat Pengelolaan Sampah (TPS) yang belum dikelola dengan baik. BUMDes Amarta melihat sampah sebagai potensi dan peluang untuk mengembangkan BUMDes yang sukses dengan memberikan banyak manfaat kepada masyarakat desa. 
               </p>
             </div>
-          </div>
-        </div>
+          </div> -->
+        <!-- </div>
 
-      </div>
+      </div> -->
     </section><!-- End About Section -->
 
     <!-- ======= Features Section ======= -->
