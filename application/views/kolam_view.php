@@ -113,7 +113,7 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                <iframe width="710" height="400" src="https://www.youtube.com/embed/khd7bXyCNas?si=wkJdEbdgYCnBmm0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="710" height="400"  src="https://www.youtube.com/embed/1MIiiXz_0i0?si=1XvLtHtHuHqrA-7R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
 <!-- 
                 <div class="swiper-slide">
@@ -133,10 +133,9 @@
             <div class="portfolio-info">
             </div>
             <div class="portfolio-description">
-              <h2>UNIT PENGELOLAH SAMPAH</h2>
+              <h2>UNIT USAHA KOlAM RENANG</h2>
               <p>
-              Memberikan edukasi emas kepada masyarakat dan pengunjung bahwa sampah bisa didaur ulang yang bermanfaat bagi lingkungan dan juga mendapatkan keuntungan.
-              </p>
+              Menyediakan wisata baru untuk masyarakat Pandowoharjo dan sekitarnya dengan kualitas perawatan secara profesional.
             </div>
           </div>
 

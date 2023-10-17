@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- !DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -64,16 +64,16 @@
         </li>
         <li class="dropdown"><a href="#"><span>Unit Usaha</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li><a class="nav-link scrollto" href='Sampah'>Unit Pengelolaan Sampah</a></li>
-            <li><a class="nav-link scrollto" href="#Tamkul">Unit Usaha Taman Kuliner</a></li>
-            <li><a class="nav-link scrollto" href="#Kolam">Unit Usaha Kolam Renang</a></li>
-            <li><a class="nav-link scrollto" href="#Beras">Produksi Beras Sleman</a></li>
-            <li><a class="nav-link scrollto" href="#Toko">Toko Desa</a></li>
-            <li><a class="nav-link scrollto" href="#Wisata">Unit Usaha Wisata Edukasi</a></li>
+            <li><a class="nav-link scrollto" href='sampah'>Unit Pengelolaan Sampah</a></li>
+            <li><a class="nav-link scrollto" href='tamkul'>Unit Usaha Taman Kuliner</a></li>
+            <li><a class="nav-link scrollto" href='kolam'>Unit Usaha Kolam Renang</a></li>
+            <li><a class="nav-link scrollto" href='beras'>Produksi Beras Sleman</a></li>
+            <li><a class="nav-link scrollto" href='toko'>Toko Desa</a></li>
+            <li><a class="nav-link scrollto" href='wisata'>Unit Usaha Wisata Edukasi</a></li>
           </ul>
         </li>
         <li><a class="nav-link scrollto" href='mitra'>Mitra usaha </a></li>
-        <li><a class="nav-link scrollto " href="#E-Commerce">E-Commerce</a></li>
+        <li><a class="nav-link scrollto " href='e-commerce'>E-Commerce</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -89,11 +89,11 @@
 </header>
 
 <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
+    <section id="clients" class="clients mt-5" >
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Clients</h2>
+          <h2>MITRA USAHA</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
@@ -151,5 +151,15 @@
 
       </div>
     </section><!-- End Clients Section -->
+          <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

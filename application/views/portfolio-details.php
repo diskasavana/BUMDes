@@ -62,17 +62,17 @@
         </ul>
         </li>
         <li class="dropdown"><a href="#"><span>Unit Usaha</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a class="nav-link scrollto" href='Sampah'>Unit Pengelolaan Sampah</a></li>
-            <li><a class="nav-link scrollto" href="#Tamkul">Unit Usaha Taman Kuliner</a></li>
-            <li><a class="nav-link scrollto" href="#Kolam">Unit Usaha Kolam Renang</a></li>
-            <li><a class="nav-link scrollto" href="#Beras">Produksi Beras Sleman</a></li>
-            <li><a class="nav-link scrollto" href="#Toko">Toko Desa</a></li>
-            <li><a class="nav-link scrollto" href="#Wisata">Unit Usaha Wisata Edukasi</a></li>
+        <ul>
+            <li><a class="nav-link scrollto" href='sampah'>Unit Pengelolaan Sampah</a></li>
+            <li><a class="nav-link scrollto" href='tamkul'>Unit Usaha Taman Kuliner</a></li>
+            <li><a class="nav-link scrollto" href='kolam'>Unit Usaha Kolam Renang</a></li>
+            <li><a class="nav-link scrollto" href='beras'>Produksi Beras Sleman</a></li>
+            <li><a class="nav-link scrollto" href='toko'>Toko Desa</a></li>
+            <li><a class="nav-link scrollto" href='wisata'>Unit Usaha Wisata Edukasi</a></li>
           </ul>
         </li>
         <li><a class="nav-link scrollto" href='mitra'>Mitra usaha </a></li>
-        <li><a class="nav-link scrollto " href="#E-Commerce">E-Commerce</a></li>
+        <li><a class="nav-link scrollto " href='e-commerce'>E-Commerce</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
