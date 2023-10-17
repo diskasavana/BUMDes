@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="<?= base_url('assets/img/favicon.png') ?>" rel="stylesheet">
-  <link href="<?= base_url('assets/img/apple-touch-icon.png') ?>" rel="stylesheet">
+  <link href="<?= base_url('assets/img/favicon.jpg') ?>" rel="stylesheet">
+  <link href="<?= base_url('assets/img/icon.jpg') ?>" rel="stylesheet">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -42,11 +42,14 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
-
+      <div class="description">
+        <div class="logo">
+          <img src="<?= base_url ('assets/img/logo 3.png" alt=""') ?>">
+        </div>
+      </div>
       <div class="logo me-auto">
-        <h1><a href="index.html">BUMdes AMARTA</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <h1><a href="index.html">BUMDesa AMARTA</a></h1>
+
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
@@ -56,21 +59,21 @@
               <li><a class="nav-link scrollto" href="#about">About Us</a></li>
               <li><a class="nav-link scrollto" href="#Pengurus">Pengurus BUMDes</a></li>
               <li><a class="nav-link scrollto" href="#Utama">Wisata Utama</a></li>
-              </li>
-            </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Unit Usaha</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="#Sampah">Unit Pengelolaan Sampah</a></li>
-              <li><a class="nav-link scrollto" href="#Tamkul">Unit Usaha Taman Kuliner</a></li>
-              <li><a class="nav-link scrollto" href="#Kolam">Unit Usaha Kolam Renang</a></li>
-              <li><a class="nav-link scrollto" href="#Beras">Produksi Beras Sleman</a></li>
-              <li><a class="nav-link scrollto" href="#Toko">Toko Desa</a></li>
-              <li><a class="nav-link scrollto" href="#Wisata">Unit Usaha Wisata Edukasi</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#Mitra">Mitra usaha</a></li>
-          <li><a class="nav-link scrollto " href="#E-Commerce">E-Commerce</a></li>
+        </ul>
+        </li>
+        <li class="dropdown"><a href="#"><span>Unit Usaha</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a class="nav-link scrollto" href='Sampah'>Unit Pengelolaan Sampah</a></li>
+            <li><a class="nav-link scrollto" href="#Tamkul">Unit Usaha Taman Kuliner</a></li>
+            <li><a class="nav-link scrollto" href="#Kolam">Unit Usaha Kolam Renang</a></li>
+            <li><a class="nav-link scrollto" href="#Beras">Produksi Beras Sleman</a></li>
+            <li><a class="nav-link scrollto" href="#Toko">Toko Desa</a></li>
+            <li><a class="nav-link scrollto" href="#Wisata">Unit Usaha Wisata Edukasi</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-link scrollto" href='mitra'>Mitra usaha </a></li>
+        <li><a class="nav-link scrollto " href="#E-Commerce">E-Commerce</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -87,28 +90,27 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-  <!-- <iframe  width="1300" height="600" src="https://drive.google.com/file/d/16w01S3rYRBjJhvAxRclJKAnLpbtVauaj/view?usp=sharing"></iframe> -->
-<!-- `    <video control autoplay loop playsinline id="background-video">` -->
-    <iframe width="1200" height="690" src="https://www.youtube.com/embed/JVtsM0cr-Uc?si=4doO9tYNCNwz7Qa4" title="YouTube video player" 
-      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <!-- Browsermu tidak mendukung tag ini, upgrade donk! -->
-    </video>
-    
+
+    <iframe width="1200" height="695" src="https://www.youtube.com/embed/JVtsM0cr-Uc?si=4doO9tYNCNwz7Qa4&autoplay=2&controls=0&showinfo=0&modestbranding=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
   </section><!-- End Hero -->
-  
+
   <section id="content">
     <div class="container">
+
       <div class="row">
-        
+
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
           <div>
-            <h1>Bergerak   Bersama   Masyarakat</h1>
+            <h1>Bergerak Bersama Masyarakat</h1>
             <h3>Kerja sama BUMDes dengan AMIKOM</h3>
-            <a href="login.html" class="btn btn-primary">Get Started</a>
+            <a href="<?php echo base_url('login'); ?>" class="btn btn-primary">Get Started</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img ml-auto" data-aos="fade-left">
-          <img src="<?= base_url('assets/img/Hero-img.png') ?>" class="img-fluid" alt="">
+          <img src="<?= base_url('assets/img/Hero.png') ?>" class="img-fluid" alt="">
         </div>
       </div>
     </div>
@@ -121,94 +123,27 @@
     <section id="about" class="about">
       <div class="container">
 
-      <div class="row">
-    <div class="row no-gutters">
-        <div class="col-md-4">
-            <img src="<?= base_url('assets/img/about.png') ?>" class="card-img" alt="Gambar Card">
-        </div>
-        <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title">Tentang BUMDes</h5>
-                <p class="card-text">BUMDesa Amarta Pandowoharjo merupakan suatu kumpulan dari usaha-usaha yang berlokasikan di Desa Pandowoharjo, Kec. Sleman. Kab. Sleman. Yogyakarta.</p>
-                <a href="<?php echo base_url('detail'); ?>" class="btn btn-primary">Baca Selengkapnya</a>
-            </div>
-        </div>
-    </div>
-</div>
-          <!-- <div class="col-lg-6 d-flex flex-column justify-contents-center" data-aos="fade-left">
-            <div class="content pt-4 pt-lg-0">
-              <h3>About us</h3>
-              <p class="fst-italic">
-              BUMDesa Amarta Pandowoharjo merupakan suatu kumpulan dari usaha-usaha yang berlokasikan di Desa Pandowoharjo, Kec. Sleman. Kab. Sleman. Yogyakarta.Berdiri sejak tahun 2016, yang memiliki Visi “Bersinergi Mewujudkan Desa Mandiri”, akan terus berkembang dan berinovasi, mengajak para Masyarakat untuk memajukan perekonomian Desa Pandowoharjo. Pada awalnya, BUMDesa Amarta Pandowoharjo mengelola unit Tempat Pengolahan Sampah, dan seiring berjalannya waktu, banyak mitra dan inovasi yang terus dikembangkan dan bekerjasama hingga saat ini. Sudah terdapat 5 unit usaha yang diunggulkan, mulai dari Pengelolaan Sampah, Kolam Renang, Toko Desa, Beras, dan Taman Kuliner. Tidak hanya itu, BUMDesa Amarta Pandowoharjo juga bekerjasama dengan usaha-usaha rumahan seperti, Batik Sekar Idaman, Gethuk Madu, Klanting, Ampyang Jahe dan beberapa UMKM lainnya.BUMDes Amarta awalnya berfokus pada pengelolaan sampah. Hal ini dilatarbelakangi oleh keinginan untuk menyediakan lingkungan yang sehat dan bersih bagi masyarakat. BUMDes Amarta mengelola Tempat Pengelolaan Sampah (TPS) yang belum dikelola dengan baik. BUMDes Amarta melihat sampah sebagai potensi dan peluang untuk mengembangkan BUMDes yang sukses dengan memberikan banyak manfaat kepada masyarakat desa. 
-              </p>
-            </div>
-          </div> -->
-        <!-- </div>
-
-      </div> -->
-    </section><!-- End About Section -->
-
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-      <div class="container">
-
         <div class="row">
-          <div class="col-lg-6 mt-2 mb-tg-0 order-2 order-lg-1">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item" data-aos="fade-up">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-                  <h4>Modi sit est</h4>
-                  <p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="100">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-                  <h4>Unde praesentium sed</h4>
-                  <p>Voluptas vel esse repudiandae quo excepturi.</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="200">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-                  <h4>Pariatur explicabo vel</h4>
-                  <p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="300">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
-                  <h4>Nostrum qui quasi</h4>
-                  <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <figure>
-                  <img src="assets/img/features-1.png" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <figure>
-                  <img src="assets/img/features-2.png" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <figure>
-                  <img src="assets/img/features-3.png" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-4">
-                <figure>
-                  <img src="assets/img/features-4.png" alt="" class="img-fluid">
-                </figure>
+          <div class="row no-gutters">
+            <div class="col-md-6" data-aos="zoom-in">
+              <img src="<?= base_url('assets/img/Logo-img.png') ?>" class="card-img" alt="Gambar Card" style="float: left;">
+            </div>
+
+            <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
+              <div>
+                <h1>Tentang BUMDesa</h1>
+                <h5>BUMDesa Amarta Pandowoharjo merupakan suatu kumpulan dari usaha-usaha yang berlokasikan di Desa Pandowoharjo, Kec. Sleman. Kab. Sleman. Yogyakarta. Berdiri sejak tahun 2016</h5>
+                <a href="<?php echo base_url('detail'); ?>" class="btn btn-primary">Baca Selengkapnya</a>
               </div>
             </div>
           </div>
         </div>
 
-      </div>
-    </section><!-- End Features Section -->
+
+    </section>
+    <!-- End About Section -->
+
+   
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
@@ -399,8 +334,8 @@
                 <p>Web</p>
               </div>
               <div class="portfolio-links">
-                <a href="<?= base_url('assets/img/portfolio/portfolio-9.jpg')?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="<?= base_url('welcome/show')?>" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="<?= base_url('assets/img/portfolio/portfolio-9.jpg') ?>" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="<?= base_url('welcome/show') ?>" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -479,27 +414,27 @@
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
-              
-                <img src="assets/img/Utama/Utama-5.jpg" class="testimonial-img" alt="">
-                <h4>Freelancer</h4>
-              
+
+              <img src="assets/img/Utama/Utama-5.jpg" class="testimonial-img" alt="">
+              <h4>Freelancer</h4>
+
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
-                <img src="assets/img/Utama/Utama-5.jpg" class="testimonial-img" alt="">
-                <h3></h3>
-                <h4>Tirta Amarta</h4>
+              <img src="assets/img/Utama/Utama-5.jpg" class="testimonial-img" alt="">
+              <h3></h3>
+              <h4>Tirta Amarta</h4>
             </div><!-- End testimonial item -->
-
-            </div>
-
-          </div>
-
-          <div class="swiper-pagination">
 
           </div>
 
         </div>
+
+        <div class="swiper-pagination">
+
+        </div>
+
+      </div>
 
     </section><!-- End Testimonials Section -->
 
@@ -567,69 +502,7 @@
       </div>
     </section><!-- End Team Section -->
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Clients</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in">
-              <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="100">
-              <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="150">
-              <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="200">
-              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="250">
-              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="300">
-              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="350">
-              <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6" data-aos="zoom-in" data-aos-delay="400">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Clients Section -->
 
 
     <!-- ======= F.A.Q Section ======= -->
@@ -804,8 +677,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Pengurus BUMDes</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+
             </ul>
           </div>
 

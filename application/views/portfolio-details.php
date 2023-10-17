@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - Scaffold Bootstrap Template</title>
+  <title>BUMDesa Amarta</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="<?= base_url('assets/img/favicon.png') ?>" rel="stylesheet">
-  <link href="<?= base_url('assets/img/apple-touch-icon.png') ?>" rel="stylesheet">
+  <link href="<?= base_url('assets/img/favicon.jpg') ?>" rel="stylesheet">
+  <link href="<?= base_url('assets/img/icon.jpg') ?>" rel="stylesheet">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -39,28 +39,40 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
+<header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
-
+      <div class="description">
+        <div class="logo">
+          <img src="<?= base_url ('assets/img/logo 3.png" alt=""') ?>">
+        </div>
+      </div>
       <div class="logo me-auto">
-        <h1><a href="<?= base_url('welcome/index') ?>">BUMDes</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <h1><a href="index.html">BUMDesa AMARTA</a></h1>
+
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>Home</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a class="nav-link scrollto" href="#about">About Us</a></li>
               <li><a class="nav-link scrollto" href="#Pengurus">Pengurus BUMDes</a></li>
               <li><a class="nav-link scrollto" href="#Utama">Wisata Utama</a></li>
-            </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto active" href="#portfolio">Portfolio</a></li>
+        </ul>
+        </li>
+        <li class="dropdown"><a href="#"><span>Unit Usaha</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a class="nav-link scrollto" href='Sampah'>Unit Pengelolaan Sampah</a></li>
+            <li><a class="nav-link scrollto" href="#Tamkul">Unit Usaha Taman Kuliner</a></li>
+            <li><a class="nav-link scrollto" href="#Kolam">Unit Usaha Kolam Renang</a></li>
+            <li><a class="nav-link scrollto" href="#Beras">Produksi Beras Sleman</a></li>
+            <li><a class="nav-link scrollto" href="#Toko">Toko Desa</a></li>
+            <li><a class="nav-link scrollto" href="#Wisata">Unit Usaha Wisata Edukasi</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-link scrollto" href='mitra'>Mitra usaha </a></li>
+        <li><a class="nav-link scrollto " href="#E-Commerce">E-Commerce</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -73,7 +85,7 @@
       </div>
 
     </div>
-  </header><!-- End Header -->
+  </header>
 
   <main id="main">
 
