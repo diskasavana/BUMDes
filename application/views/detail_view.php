@@ -52,26 +52,19 @@
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li class="dropdown"><a href="#"><span>Home</span> <i class="bi bi-chevron-down"></i></a>
+      <ul>
+          <li><a class="nav-link scrollto" href='welcome'>Home </a></li>
+          <li class="dropdown"><a href="#"><span>Unit Usaha</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-              <li><a class="nav-link scrollto" href="#Pengurus">Pengurus BUMDes</a></li>
-              <li><a class="nav-link scrollto" href="#Utama">Wisata Utama</a></li>
+              <li><a class="nav-link scrollto" href='sampah'>Unit Pengelolaan Sampah</a></li>
+              <li><a class="nav-link scrollto" href='tamkul'>Unit Usaha Taman Kuliner</a></li>
+              <li><a class="nav-link scrollto" href='kolam'>Unit Usaha Kolam Renang</a></li>
+              <li><a class="nav-link scrollto" href='beras'>Produksi Beras Sleman</a></li>
+              <li><a class="nav-link scrollto" href='toko'>Toko Desa</a></li>
+            </ul>
           </li>
-        </ul>
-        </li>
-        <li class="dropdown"><a href="#"><span>Unit Usaha</span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a class="nav-link scrollto" href='sampah'>Unit Pengelolaan Sampah</a></li>
-            <li><a class="nav-link scrollto" href='tamkul'>Unit Usaha Taman Kuliner</a></li>
-            <li><a class="nav-link scrollto" href='kolam'>Unit Usaha Kolam Renang</a></li>
-            <li><a class="nav-link scrollto" href='beras'>Produksi Beras Sleman</a></li>
-            <li><a class="nav-link scrollto" href='toko'>Toko Desa</a></li>
-          </ul>
-        </li>
-        <li><a class="nav-link scrollto" href='mitra'>Mitra usaha </a></li>
-        <li><a class="nav-link scrollto " href='e-commerce'>E-Commerce</a></li>
+          <li><a class="nav-link scrollto" href='mitra'>Mitra usaha </a></li>
+          <li><a class="nav-link scrollto " href='ecommerce'>E-Commerce</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -118,20 +111,20 @@
               </div>
             </div>
 
-        <div class="col-lg-5">
-          <div class="portfolio-info">
-          </div>
-          <div class="portfolio-description">
-            <h2>BUMDES AMARTA PANDOWOHARJO</h2>
-            <p>
-              BUMDesa Amarta Pandowoharjo merupakan suatu kumpulan dari usaha-usaha yang berlokasikan di Desa Pandowoharjo, Kec. Sleman. Kab. Sleman. Yogyakarta.
-              Berdiri sejak tahun 2016, yang memiliki Visi “Bersinergi Mewujudkan Desa Mandiri”, akan terus berkembang dan berinovasi,
-              mengajak para Masyarakat untuk memajukan perekonomian Desa Pandowoharjo. Pada awalnya, BUMDesa Amarta Pandowoharjo mengelola unit Tempat Pengolahan Sampah, dan seiring berjalannya waktu, banyak mitra dan inovasi yang terus dikembangkan dan bekerjasama hingga saat ini. Sudah terdapat 5 unit usaha yang diunggulkan, mulai dari Pengelolaan Sampah, Kolam Renang, Toko Desa, Beras, dan Taman Kuliner. Tidak hanya itu, BUMDesa Amarta Pandowoharjo juga bekerjasama dengan usaha-usaha rumahan seperti, Batik Sekar Idaman, Gethuk Madu, Klanting, Ampyang Jahe dan beberapa UMKM lainnya.
-            </p>
-          </div>
-        </div>
+            <div class="col-lg-5">
+              <div class="portfolio-info">
+              </div>
+              <div class="portfolio-description">
+                <h2>BUMDES AMARTA PANDOWOHARJO</h2>
+                <p>
+                  BUMDesa Amarta Pandowoharjo merupakan suatu kumpulan dari usaha-usaha yang berlokasikan di Desa Pandowoharjo, Kec. Sleman. Kab. Sleman. Yogyakarta.
+                  Berdiri sejak tahun 2016, yang memiliki Visi “Bersinergi Mewujudkan Desa Mandiri”, akan terus berkembang dan berinovasi,
+                  mengajak para Masyarakat untuk memajukan perekonomian Desa Pandowoharjo. Pada awalnya, BUMDesa Amarta Pandowoharjo mengelola unit Tempat Pengolahan Sampah, dan seiring berjalannya waktu, banyak mitra dan inovasi yang terus dikembangkan dan bekerjasama hingga saat ini. Sudah terdapat 5 unit usaha yang diunggulkan, mulai dari Pengelolaan Sampah, Kolam Renang, Toko Desa, Beras, dan Taman Kuliner. Tidak hanya itu, BUMDesa Amarta Pandowoharjo juga bekerjasama dengan usaha-usaha rumahan seperti, Batik Sekar Idaman, Gethuk Madu, Klanting, Ampyang Jahe dan beberapa UMKM lainnya.
+                </p>
+              </div>
+            </div>
 
-        </div>
+          </div>
 
         </div>
       </section><!-- End Portfolio Details Section -->
@@ -142,7 +135,6 @@
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
       <div class="container">
-
         <div class="row">
           <div class="col-lg-6 mt-2 mb-tg-0 order-2 order-lg-1">
             <ul class="nav nav-tabs flex-column">
@@ -219,22 +211,19 @@
             </div>
           </div>
         </div>
-
       </div>
+
     </section><!-- End Features Section -->
     <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
               <h3>BUMDes</h3>
               <p>
-                Niron, Pandowoharjo, Sleman, <br>
-                Sleman Regency, Special Region of Yogyakarta 55512br><br>
-                <strong>Phone:</strong> 087838523909<br>
-                <strong>Email:</strong> info@example.com<br>
+                BUMDes Amarta merupakan unit usaha milik desa Pandowoharjo. Saat ini Amarta memiliki lima unit usaha
+                dan telah bekerjasama dengan berbagai Mitra
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -245,42 +234,34 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Tentang Kami
-
-            </h4>
+            <h4>Tentang kami</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Pengurus BUMDes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="welcome">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#Pengurus">Pengurus BUMDes</a></li>
             </ul>
           </div>
-<!-- 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div> -->
-
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
-
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Alamat</h4>
+            <p>
+              Niron, Pandowoharjo, Sleman,<br>
+              Sleman Regency, Special Region of Yogyakarta 55512<br><br>
+              <strong>Phone:</strong> 087838523909<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
           </div>
 
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>BUMDes</span></strong>. All Rights Reserved
@@ -294,18 +275,20 @@
       </div>
     </div>
   </footer><!-- End Footer -->
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-  </body>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
 
 </html>

@@ -37,29 +37,22 @@
   ======================================================== -->
 </head>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center">
-      <div class="description">
-        <div class="logo">
-          <img src="<?= base_url ('assets/img/logo 3.png" alt=""') ?>">
-        </div>
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top d-flex align-items-center">
+  <div class="container d-flex align-items-center">
+    <div class="description">
+      <div class="logo">
+        <img src="<?= base_url('assets/img/logo 3.png" alt=""') ?>">
       </div>
-      <div class="logo me-auto">
-        <h><a href="index.html">BUMDesa AMARTA</a></h>
+    </div>
+    <div class="logo me-auto">
+      <h><a href="index.html">BUMDesa AMARTA</a></h>
 
-      </div>
+    </div>
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li class="dropdown"><a href="index"><span>Home</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-              <li><a class="nav-link scrollto" href="#Pengurus">Pengurus BUMDes</a></li>
-              <li><a class="nav-link scrollto" href="#Utama">Wisata Utama</a></li>
-          </li>
-        </ul>
-        </li>
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="nav-link scrollto" href='welcome'>Home </a></li>
         <li class="dropdown"><a href="#"><span>Unit Usaha</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a class="nav-link scrollto" href='sampah'>Unit Pengelolaan Sampah</a></li>
@@ -70,57 +63,57 @@
           </ul>
         </li>
         <li><a class="nav-link scrollto" href='mitra'>Mitra usaha </a></li>
-        <li><a class="nav-link scrollto " href='e-commerce'>E-Commerce</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+        <li><a class="nav-link scrollto " href='ecommerce'>E-Commerce</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
 
-      <div class="header-social-links d-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
-
+    <div class="header-social-links d-flex align-items-center">
+      <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
     </div>
+
+  </div>
 </header>
 
 <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients mt-5" >
-      <div class="container">
+<section id="clients" class="clients mt-5">
+  <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>MITRA USAHA</h2>
-          <p>BUMDes Amarta telah bekerja sama dengan berbagai Mitra guna mewujudkan bumdes yang unggul, efektif, dan akuntabel.</p>
+    <div class="section-title" data-aos="fade-up">
+      <h2>MITRA USAHA</h2>
+      <p>BUMDes Amarta telah bekerja sama dengan berbagai Mitra guna mewujudkan bumdes yang unggul, efektif, dan akuntabel.</p>
+    </div>
+
+    <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
+
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo" data-aos="zoom-in">
+          <img src="assets/img/clients/BRI.jpg" class="img-fluid" alt="">
         </div>
+      </div>
 
-        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo" data-aos="zoom-in" data-aos-delay="100">
+          <img src="assets/img/clients/PRSI.png" class="img-fluid" alt="">
+        </div>
+      </div>
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in">
-              <img src="assets/img/clients/BRI.jpg" class="img-fluid" alt="">
-            </div>
-          </div>
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo" data-aos="zoom-in" data-aos-delay="150">
+          <img src="assets/img/clients/jejamuran.png" class="img-fluid" alt="">
+        </div>
+      </div>
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="100">
-              <img src="assets/img/clients/PRSI.png" class="img-fluid" alt="">
-            </div>
-          </div>
+      <div class="col-lg-3 col-md-4 col-xs-6">
+        <div class="client-logo" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/clients/sampoerna.png" class="img-fluid" alt="">
+        </div>
+      </div>
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="150">
-              <img src="assets/img/clients/jejamuran.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="200">
-              <img src="assets/img/clients/sampoerna.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <!-- <div class="col-lg-3 col-md-4 col-xs-6">
+      <!-- <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo" data-aos="zoom-in" data-aos-delay="250">
               <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
             </div>
@@ -144,24 +137,21 @@
             </div>
           </div> -->
 
-        </div>
+    </div>
 
-      </div>
-    </section><!-- End Clients Section -->
-      <!-- ======= Footer ======= -->
-  <footer id="footer">
+  </div>
+</section><!-- End Clients Section -->
+<!-- ======= Footer ======= -->
+<footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
               <h3>BUMDes</h3>
               <p>
-                Niron, Pandowoharjo, Sleman, <br>
-                Sleman Regency, Special Region of Yogyakarta 55512br><br>
-                <strong>Phone:</strong> 087838523909<br>
-                <strong>Email:</strong> info@example.com<br>
+                BUMDes Amarta merupakan unit usaha milik desa Pandowoharjo. Saat ini Amarta memiliki lima unit usaha
+                dan telah bekerjasama dengan berbagai Mitra
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -172,42 +162,34 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Tentang Kami
-
-            </h4>
+            <h4>Tentang kami</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Pengurus BUMDes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="welcome">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#Pengurus">Pengurus BUMDes</a></li>
             </ul>
           </div>
-<!-- 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div> -->
-
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
-
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Alamat</h4>
+            <p>
+              Niron, Pandowoharjo, Sleman,<br>
+              Sleman Regency, Special Region of Yogyakarta 55512<br><br>
+              <strong>Phone:</strong> 087838523909<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
           </div>
 
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>BUMDes</span></strong>. All Rights Reserved
@@ -221,9 +203,10 @@
       </div>
     </div>
   </footer><!-- End Footer -->
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-          <!-- Vendor JS Files -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -233,5 +216,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>

@@ -39,11 +39,11 @@
 
 <body>
 
-<header id="header" class="fixed-top d-flex align-items-center">
+  <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
       <div class="description">
         <div class="logo">
-          <img src="<?= base_url ('assets/img/logo 3.png" alt=""') ?>">
+          <img src="<?= base_url('assets/img/logo 3.png" alt=""') ?>">
         </div>
       </div>
       <div class="logo me-auto">
@@ -53,25 +53,18 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li class="dropdown"><a href="#"><span>Home</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto" href='welcome'>Home </a></li>
+          <li class="dropdown"><a href="#"><span>Unit Usaha</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-              <li><a class="nav-link scrollto" href="#Pengurus">Pengurus BUMDes</a></li>
-              <li><a class="nav-link scrollto" href="#Utama">Wisata Utama</a></li>
+              <li><a class="nav-link scrollto" href='sampah'>Unit Pengelolaan Sampah</a></li>
+              <li><a class="nav-link scrollto" href='tamkul'>Unit Usaha Taman Kuliner</a></li>
+              <li><a class="nav-link scrollto" href='kolam'>Unit Usaha Kolam Renang</a></li>
+              <li><a class="nav-link scrollto" href='beras'>Produksi Beras Sleman</a></li>
+              <li><a class="nav-link scrollto" href='toko'>Toko Desa</a></li>
+            </ul>
           </li>
-        </ul>
-        </li>
-        <li class="dropdown"><a href="#"><span>Unit Usaha</span> <i class="bi bi-chevron-down"></i></a>
-        <ul>
-            <li><a class="nav-link scrollto" href='sampah'>Unit Pengelolaan Sampah</a></li>
-            <li><a class="nav-link scrollto" href='tamkul'>Unit Usaha Taman Kuliner</a></li>
-            <li><a class="nav-link scrollto" href='kolam'>Unit Usaha Kolam Renang</a></li>
-            <li><a class="nav-link scrollto" href='beras'>Produksi Beras Sleman</a></li>
-            <li><a class="nav-link scrollto" href='toko'>Toko Desa</a></li>
-          </ul>
-        </li>
-        <li><a class="nav-link scrollto" href='mitra'>Mitra usaha </a></li>
-        <li><a class="nav-link scrollto " href='e-commerce'>E-Commerce</a></li>
+          <li><a class="nav-link scrollto" href='mitra'>Mitra usaha </a></li>
+          <li><a class="nav-link scrollto " href='ecommerce'>E-Commerce</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -91,7 +84,7 @@
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs mt-3">
       <div class="container">
-<!-- 
+        <!-- 
         <ol>
           <li><a href="index.html">Home</a></li>
           <li>Portfolio Details</li>
@@ -112,9 +105,9 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                <iframe width="710" height="400" src="https://www.youtube.com/embed/WKTORAbUtl4?si=gXCFB07h5uWDvZ9C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <iframe width="710" height="400" src="https://www.youtube.com/embed/WKTORAbUtl4?si=gXCFB07h5uWDvZ9C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-<!-- 
+                <!-- 
                 <div class="swiper-slide">
                   <img src="assets/img/portfolio/portfolio-2.jpg" alt="">
                 </div>
@@ -134,8 +127,8 @@
             <div class="portfolio-description">
               <h2>UNIT USAHA TOKO DESA</h2>
               <p>
-              Toko Desa Amarta menjual tanaman bonsai dan tanaman hias hasil kerjasama dengan paguyuban pecinta bonsai dan tanaman hias.
-              Selain itu Toko Desa juga bekerjasama dengan paguyuban pecinta Bonsai dan Tanaman Hias lainnya, Toko Desa memperjualkan Tanaman Hias seperti Bonsai yang indah.
+                Toko Desa Amarta menjual tanaman bonsai dan tanaman hias hasil kerjasama dengan paguyuban pecinta bonsai dan tanaman hias.
+                Selain itu Toko Desa juga bekerjasama dengan paguyuban pecinta Bonsai dan Tanaman Hias lainnya, Toko Desa memperjualkan Tanaman Hias seperti Bonsai yang indah.
             </div>
           </div>
 
@@ -151,15 +144,12 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
               <h3>BUMDes</h3>
               <p>
-                Niron, Pandowoharjo, Sleman, <br>
-                Sleman Regency, Special Region of Yogyakarta 55512br><br>
-                <strong>Phone:</strong> 087838523909<br>
-                <strong>Email:</strong> info@example.com<br>
+                BUMDes Amarta merupakan unit usaha milik desa Pandowoharjo. Saat ini Amarta memiliki lima unit usaha
+                dan telah bekerjasama dengan berbagai Mitra
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -170,40 +160,34 @@
               </div>
             </div>
           </div>
-
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Tentang Kami</h4>
+            <h4>Tentang kami</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Pengurus BUMDes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="welcome">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#Pengurus">Pengurus BUMDes</a></li>
             </ul>
           </div>
-<!-- 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div> -->
-
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
-
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Alamat</h4>
+            <p>
+              Niron, Pandowoharjo, Sleman,<br>
+              Sleman Regency, Special Region of Yogyakarta 55512<br><br>
+              <strong>Phone:</strong> 087838523909<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
           </div>
 
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>BUMDes</span></strong>. All Rights Reserved
