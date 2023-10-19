@@ -47,7 +47,7 @@
         </div>
       </div>
       <div class="logo me-auto">
-        <h1><a href="index.html">BUMDesa AMARTA</a></h1>
+        <h><a href="index.html">BUMDesa AMARTA</a></h>
 
       </div>
 
@@ -68,7 +68,6 @@
             <li><a class="nav-link scrollto" href='kolam'>Unit Usaha Kolam Renang</a></li>
             <li><a class="nav-link scrollto" href='beras'>Produksi Beras Sleman</a></li>
             <li><a class="nav-link scrollto" href='toko'>Toko Desa</a></li>
-            <li><a class="nav-link scrollto" href='wisata'>Unit Usaha Wisata Edukasi</a></li>
           </ul>
         </li>
         <li><a class="nav-link scrollto" href='mitra'>Mitra usaha </a></li>
@@ -135,7 +134,8 @@
             <div class="portfolio-description">
               <h2>UNIT PENGELOLAH SAMPAH</h2>
               <p>
-              Memberikan edukasi emas kepada masyarakat dan pengunjung bahwa sampah bisa didaur ulang yang bermanfaat bagi lingkungan dan juga mendapatkan keuntungan.
+              Unit ini melayani kurang lebih 600 pelanggan dibantu oleh empat jasa pengepul sampah mandiri yang merupakan warga desa Pandowoharjo.
+              Unit ini juga Memberikan edukasi emas kepada masyarakat dan pengunjung bahwa sampah bisa didaur ulang yang bermanfaat bagi lingkungan dan juga mendapatkan keuntungan.
               </p>
             </div>
           </div>
@@ -173,16 +173,14 @@
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Tentang Kami</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Pengurus BUMDes</a></li>
             </ul>
           </div>
-
+<!-- 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
@@ -192,7 +190,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
             </ul>
-          </div>
+          </div> -->
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>

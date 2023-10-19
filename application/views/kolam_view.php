@@ -47,7 +47,7 @@
         </div>
       </div>
       <div class="logo me-auto">
-        <h1><a href="index.html">BUMDesa AMARTA</a></h1>
+        <h><a href="index.html">BUMDesa AMARTA</a></h>
 
       </div>
 
@@ -68,7 +68,6 @@
             <li><a class="nav-link scrollto" href='kolam'>Unit Usaha Kolam Renang</a></li>
             <li><a class="nav-link scrollto" href='beras'>Produksi Beras Sleman</a></li>
             <li><a class="nav-link scrollto" href='toko'>Toko Desa</a></li>
-            <li><a class="nav-link scrollto" href='wisata'>Unit Usaha Wisata Edukasi</a></li>
           </ul>
         </li>
         <li><a class="nav-link scrollto" href='mitra'>Mitra usaha </a></li>
@@ -135,7 +134,8 @@
             <div class="portfolio-description">
               <h2>UNIT USAHA KOlAM RENANG</h2>
               <p>
-              Menyediakan wisata baru untuk masyarakat Pandowoharjo dan sekitarnya dengan kualitas perawatan secara profesional.
+              Dalam pelaksanaannya, unit ini bekerjasama dengan PRSI (Persatuan Renang Seluruh Indonesia Pengda DIY dan Forum Klub Renang Sleman (FKRS)).
+              Selain itu Unit ini menyediakan wisata baru untuk masyarakat Pandowoharjo dan sekitarnya dengan kualitas perawatan secara profesional.
             </div>
           </div>
 
