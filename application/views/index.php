@@ -315,14 +315,14 @@
     <section id="contact" class="contact section-bg">
       <div class="container">
         <div class="section-title" data-aos="fade-up">
-          <h2>Contact Us</h2>
+          <h2>Hubungi Kami</h2>
         </div>
         <div class="row">
           <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-right">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
+                <h4>Lokasi</h4>
                 <p>Niron, Pandowoharjo, Sleman, Sleman Regency, Special Region of Yogyakarta 55512</p>
               </div>
               <div class="email">
@@ -332,7 +332,7 @@
               </div>
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
+                <h4>Telepon:</h4>
                 <p>087838523909</p>
               </div>
               <!-- <iframe src="https://www.bing.com/maps?q=bumdes+pandowoharjo&FORM=HDRSC7&cp=-7.797398%7E110.366592&lvl=11.0" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
@@ -343,20 +343,20 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
+                  <label for="name">Nama</label>
                   <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6 mt-3 mt-md-0">
-                  <label for="name">Your Email</label>
+                  <label for="name">Email</label>
                   <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <label for="name">Subject</label>
+                <label for="name">Judul</label>
                 <input type="text" class="form-control" name="subject" id="subject" required>
               </div>
               <div class="form-group mt-3">
-                <label for="name">Message</label>
+                <label for="name">Pesan</label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
               <div class="my-3">
@@ -364,7 +364,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Kirim Pesan</button></div>
             </form>
           </div>
         </div>
