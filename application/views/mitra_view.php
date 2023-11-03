@@ -64,6 +64,7 @@
         </li>
         <li><a class="nav-link scrollto" href='mitra'>Mitra usaha </a></li>
         <li><a class="nav-link scrollto " href='ecommerce'>E-Commerce</a></li>
+        <li><a class="nav-link scrollto " href='berita'>Berita</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
@@ -91,25 +92,25 @@
 
       <div class="col-lg-3 col-md-4 col-xs-6">
         <div class="client-logo" data-aos="zoom-in">
-          <img src="assets/img/clients/BRI.jpg" class="img-fluid" alt="">
+          <img src="assets/img/Mitra/BRI.jpg" class="img-fluid" alt="">
         </div>
       </div>
 
       <div class="col-lg-3 col-md-4 col-xs-6">
         <div class="client-logo" data-aos="zoom-in" data-aos-delay="100">
-          <img src="assets/img/clients/PRSI.png" class="img-fluid" alt="">
+          <img src="assets/img/Mitra/PRSI.png" class="img-fluid" alt="">
         </div>
       </div>
 
       <div class="col-lg-3 col-md-4 col-xs-6">
         <div class="client-logo" data-aos="zoom-in" data-aos-delay="150">
-          <img src="assets/img/clients/jejamuran.png" class="img-fluid" alt="">
+          <img src="assets/img/Mitra/jejamuran.png" class="img-fluid" alt="">
         </div>
       </div>
 
       <div class="col-lg-3 col-md-4 col-xs-6">
         <div class="client-logo" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/clients/sampoerna.png" class="img-fluid" alt="">
+          <img src="assets/img/Mitra/sampoerna.png" class="img-fluid" alt="">
         </div>
       </div>
 

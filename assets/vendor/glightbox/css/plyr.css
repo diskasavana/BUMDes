@@ -1287,7 +1287,7 @@ a.plyr__control:before {
 }
 
 .plyr--video .plyr__controls {
-  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.75)));
+  background: -]webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.75)));
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
   background: var(--plyr-video-controls-background, linear-gradient(transparent, rgba(0, 0, 0, 0.75)));

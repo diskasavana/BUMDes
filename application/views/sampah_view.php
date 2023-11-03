@@ -61,6 +61,7 @@
               <li><a class="nav-link scrollto" href='kolam'>Unit Usaha Kolam Renang</a></li>
               <li><a class="nav-link scrollto" href='beras'>Produksi Beras Sleman</a></li>
               <li><a class="nav-link scrollto" href='toko'>Toko Desa</a></li>
+              <li><a class="nav-link scrollto " href='berita'>Berita</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href='mitra'>Mitra usaha </a></li>

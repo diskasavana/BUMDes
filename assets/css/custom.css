@@ -1,11 +1,13 @@
 #background-video {
-    width: 100vw;
-    height: 100vh;
-    object-fit: fill;
-    /* position: fixed; */
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    /* z-index: -1; */
-  }
+    width: 100%; /* Lebar 100% agar mengisi kontainer dengan baik */
+    height: auto; /* Ketinggian otomatis agar rasio aspek video terjaga */
+    object-fit: cover; /* Untuk mengisi area kontainer, namun tetap menjaga aspek video */
+}
+
+@media (max-width: 768px) {
+    #background-video {
+        width: 100%; /* Misalnya, pada layar dengan lebar kurang dari 768px, gunakan lebar 100% */
+        height: auto;
+        object-fit: cover;
+    }
+}

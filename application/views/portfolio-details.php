@@ -72,6 +72,7 @@
         </li>
         <li><a class="nav-link scrollto" href='mitra'>Mitra usaha </a></li>
         <li><a class="nav-link scrollto " href='e-commerce'>E-Commerce</a></li>
+        <li><a class="nav-link scrollto " href='berita'>Berita</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
