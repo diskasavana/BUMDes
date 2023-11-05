@@ -27,8 +27,6 @@
   <!-- Template Main CSS File -->
   <link href="<?= base_url('assets/css/style.css') ?>" rel="stylesheet">
   <link href="<?= base_url('assets/css/custom.css') ?>" rel="stylesheet">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/responsive.css') ?>">
 
 
@@ -86,7 +84,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="video-container">
-      <iframe src="https://www.youtube.com/embed/JVtsM0cr-Uc?si=4doO9tYNCNwz7Qa4&autoplay=1&controls=0&showinfo=0&modestbranding=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/JVtsM0cr-Uc?si=4doO9tYNCNwz7Qa4&modestbranding=0&rel=0"  frameborder="0" allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </section><!-- End Hero -->
 
@@ -95,8 +93,8 @@
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
           <div>
-            <h1 style="font-size: 2rem;">Bergerak Bersama Masyarakat</h1>
-            <h3 style="font-size: 1.5rem;">Kerja sama BUMDes dengan Universitas Amikom Yogyakarta</h3>
+            <h2 style="font-size: 2rem;">Bergerak Bersama Masyarakat</h2>
+            <P style="font-size: 1.5rem;">Kerja sama BUMDes dengan Universitas Amikom Yogyakarta</P>
             <!-- <a href="<?php echo base_url('login'); ?>" class="btn btn-primary">Get Started</a> -->
           </div>
         </div>
@@ -109,7 +107,6 @@
 
 
   <main id="main">
-
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
@@ -129,6 +126,8 @@
         </div>
     </section>
     <!-- End About Section -->
+
+
     <!-- ======= Team Section ======= -->
     <section id="Pengurus" class="team">
       <div class="container">
@@ -185,6 +184,65 @@
         </div>
       </div>
     </section><!-- End Team Section -->
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Galeri Batik Sekar Idaman</h2>
+          <p>Batik Sekar Idaman menyediakan berbagai macam batik dengan motif yang sangat cantik dan elegan yang sangat cocok digunakan untuk sehari-hari ataupun acara resmi karena sangat fashionable tetapi tidak mengurangi nilai batik itu sendiri.</p>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 portfolio-item ">
+            <div class="portfolio-wrap">
+              <img src="assets/img/UMKM/UMKM1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item ">
+            <div class="portfolio-wrap">
+              <img src="assets/img/UMKM/UMKM2.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item ">
+            <div class="portfolio-wrap">
+              <img src="assets/img/UMKM/UMKM3.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/UMKM/UMKM4.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/UMKM/UMKM5.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/UMKM/UMKM6.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/UMKM/UMKM7.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/UMKM/UMKM8.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/UMKM/UMKM9.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="Utama" class="testimonials">
@@ -193,48 +251,36 @@
           <h2>Galeri Kami</h2>
           <p>Berikut adalah beberapa potret kegiatan yang telah berlangsung di BUMDes Amarta.</p>
         </div>
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="1000">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="assets/img/Utama/Utama1.png" class="testimonial-img" alt="">
-              <h3></h3>
-              <h4></h4>
+              <img src="assets/img/Utama/Utama1.png" alt="galery">
             </div><!-- End testimonial item -->
             <div class="swiper-slide">
-              <!-- <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p> -->
-              <img src="assets/img/Utama/Utama2.png" class="testimonial-img" alt="">
-              <h3></h3>
-              <h4></h4>
+              <img src="assets/img/Utama/Utama2.png" alt="galery">
               <!-- </div> -->
             </div><!-- End testimonial item -->
             <div class="swiper-slide">
-              <img src="assets/img/Utama/Utama3.png" class="testimonial-img" alt="">
-              <h3></h3>
+              <img src="assets/img/Utama/Utama3.png" alt="galery">
+            </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <img src="assets/img/Utama/Utama4.png" alt="galery">
               <h4></h4>
             </div><!-- End testimonial item -->
             <div class="swiper-slide">
-              <img src="assets/img/Utama/Utama4.png" class="testimonial-img" alt="">
-              <h4></h4>
+              <img src="assets/img/Utama/Utama5.png" alt="galery">
             </div><!-- End testimonial item -->
             <div class="swiper-slide">
-              <img src="assets/img/Utama/Utama5.png" class="testimonial-img" alt="">
-              <h3></h3>
-              <h4></h4>
-            </div><!-- End testimonial item -->
-            <div class="swiper-slide">
-              <img src="assets/img/Utama/Utama6.png" class="testimonial-img" alt="">
-              <h3></h3>
-              <h4></h4>
+              <img src="assets/img/Utama/Utama8.png" alt="galery">
             </div>
             <div class="swiper-slide">
-              <img src="assets/img/Utama/Utama7.png" class="testimonial-img" alt="">
-              <h3></h3>
-              <h4></h4>
+              <img src="assets/img/Utama/Utama7.png" alt="galery">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/Utama/Utama 10.jpg" alt="galery">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/Utama/Utama 11.jpg" alt="galery">
             </div>
           </div>
         </div>
@@ -261,82 +307,22 @@
     </section><!-- End Cta Section -->
 
 
-    <main id="main" data-aos="fade" data-aos-delay="0">
-      <!-- ======= Gallery Section ======= -->
-      <section id="gallery" class="gallery">
-        <div class="container-fluid">
-          <div class="section-title" data-aos="fade-up">
-            <h2>Katalog Kami</h2>
-            <p>Berikut adalah beberapa katalog BUMDes Amarta Pandowoharjo.</p>
-          </div>
-          <!-- Baris pertama -->
-          <!-- Baris pertama -->
-          <div class="row gy-5 justify-content-center">
-            <!-- Gambar 1 -->
-            <div class="col-xl-3 col-lg-3 col-md-4">
-              <div class="gallery-item h-100">
-                <img src="assets/img/Katalog/Katalog1.jpg" class="img-fluid" alt="">
-                <div class="gallery-links d-flex align-items-center justify-content-center">
-                  <!-- <a href="" title="" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-        <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-                </div>
-              </div>
-            </div>
-            <!-- Akhir Gambar 1 -->
-
-            <!-- Gambar 2 -->
-            <div class="col-xl-3 col-lg-3 col-md-4">
-              <div class="gallery-item h-100">
-                <img src="assets/img/Katalog/Katalog3.jpg" class="img-fluid" alt="">
-                <div class="gallery-links d-flex align-items-center justify-content-center">
-                  <!-- <a href="assets/img/gallery/gallery-2.jpg" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-      <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-                </div>
-              </div>
-            </div>
-            <!-- Akhir Gambar 2 -->
-
-            <!-- Gambar 3 -->
-            <div class="col-xl-3 col-lg-3 col-md-4">
-              <div class="gallery-item h-100">
-                <img src="assets/img/Katalog/Katalog4.jpg" class="img-fluid" alt="">
-                <div class="gallery-links d-flex align-items-center justify-content-center">
-                  <!-- <a href="assets/img/gallery/gallery-3.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-         <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-                </div>
-              </div>
-            </div>
-            <!-- Akhir Gambar 3 -->
-
-            <!-- Gambar 4 -->
-            <div class="col-xl-3 col-lg-3 col-md-4">
-              <div class="gallery-item h-100">
-                <img src="assets/img/Katalog/Katalog5.jpg" class="img-fluid" alt="">
-                <div class="gallery-links d-flex align-items-center justify-content-center">
-                  <!-- <a href="assets/img/gallery/gallery-4.jpg" title="Gallery 4" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-        <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-                </div>
-              </div>
-            </div>
-            <!-- Akhir Gambar 4 -->
-
-            <!-- Gambar 5 -->
-            <div class="col-xl-3 col-lg-3 col-md-4">
-              <div class="gallery-item h-100">
-                <img src="assets/img/Katalog/Katalog6.jpg" class="img-fluid" alt="">
-                <div class="gallery-links d-flex align-items-center justify-content-center">
-                  <!-- <a href="" title="" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-        <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-                </div>
-              </div>
-            </div>
-            <!-- Akhir Gambar 5 -->
-
-          </div>
-
+    <!-- <main id="main" data-aos="fade" data-aos-delay="0"> -->
+    <!-- ======= Katalog Section ======= -->
+    <section id="katalog">
+      <div class="container">
+        <div class="section-title">
+          <h2>Katalog Kami</h2>
+          <p>Berikut adalah katalog BUMDes Amarta Pandowoharjo.</p>
         </div>
-      </section><!-- Akhir Bagian Galeri -->
-    </main><!-- End #main -->
+        <!-- Baris pertama -->
+        <div class="flex-wrap justify-center">
+          <iframe src="<?= base_url('assets/docs/Katalog_BUMDES_Amarta.pdf') ?>" width="100%" height="900px"></iframe>
+        </div>
+
+      </div>
+    </section><!-- Akhir Bagian Katalog -->
+    <!-- </main>End #main -->
 
     <!-- ======= F.A.Q Section ======= -->
     <section id="faq" class="faq">
@@ -422,7 +408,7 @@
                 <p>087838523909</p>
               </div>
               <!-- <iframe src="https://www.bing.com/maps?q=bumdes+pandowoharjo&FORM=HDRSC7&cp=-7.797398%7E110.366592&lvl=11.0" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7907.619337920803!2d110.3579020413105!3d-7.7035635678357846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5f3a07af7a8f%3A0xe8ae35338e5dcb42!2sNiron%2C%20Pandowoharjo%2C%20Sleman%2C%20Sleman%20Regency%2C%20Special%20Region%20of%20Yogyakarta!5e0!3m2!1sen!2sid!4v1696994496401!5m2!1sen!2sid" width="380" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7907.619337920803!2d110.3579020413105!3d-7.7035635678357846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5f3a07af7a8f%3A0xe8ae35338e5dcb42!2sNiron%2C%20Pandowoharjo%2C%20Sleman%2C%20Sleman%20Regency%2C%20Special%20Region%20of%20Yogyakarta!5e0!3m2!1sen!2sid!4v1696994496401!5m2!1sen!2sid" width="380" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-left">
@@ -487,13 +473,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#Pengurus">Pengurus BUMDes</a></li>
             </ul>
           </div>
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Alamat</h4>
             <p>
@@ -503,6 +482,14 @@
               <strong>Email:</strong> info@example.com<br>
             </p>
           </div>
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Bagaimana Pendapatmu Tentang Kami</h4>
+            <p></p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Kirim">
+            </form>
+          </div>
+          
 
         </div>
       </div>

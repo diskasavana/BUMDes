@@ -82,68 +82,36 @@
 <!-- ======= Clients Section ======= -->
 <section id="clients" class="clients mt-5">
   <div class="container">
-
     <div class="section-title" data-aos="fade-up">
       <h2>MITRA USAHA</h2>
       <p>BUMDes Amarta telah bekerja sama dengan berbagai Mitra guna mewujudkan bumdes yang unggul, efektif, dan akuntabel.</p>
     </div>
-
     <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-
       <div class="col-lg-3 col-md-4 col-xs-6">
-        <div class="client-logo" data-aos="zoom-in">
+        <div class="client-logo" style="margin-top: 2rem;" data-aos="zoom-in" data-aos-delay="100">
           <img src="assets/img/Mitra/BRI.jpg" class="img-fluid" alt="">
         </div>
       </div>
-
       <div class="col-lg-3 col-md-4 col-xs-6">
         <div class="client-logo" data-aos="zoom-in" data-aos-delay="100">
           <img src="assets/img/Mitra/PRSI.png" class="img-fluid" alt="">
         </div>
       </div>
-
       <div class="col-lg-3 col-md-4 col-xs-6">
         <div class="client-logo" data-aos="zoom-in" data-aos-delay="150">
           <img src="assets/img/Mitra/jejamuran.png" class="img-fluid" alt="">
         </div>
       </div>
-
       <div class="col-lg-3 col-md-4 col-xs-6">
         <div class="client-logo" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/Mitra/sampoerna.png" class="img-fluid" alt="">
         </div>
       </div>
-
-      <!-- <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="250">
-              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="300">
-              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="350">
-              <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6" data-aos="zoom-in" data-aos-delay="400">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
-            </div>
-          </div> -->
-
     </div>
-
   </div>
-</section><!-- End Clients Section -->
-<!-- ======= Footer ======= -->
-<footer id="footer">
+
+ <!-- ======= Footer ======= -->
+ <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -171,13 +139,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#Pengurus">Pengurus BUMDes</a></li>
             </ul>
           </div>
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Alamat</h4>
             <p>
@@ -187,6 +148,14 @@
               <strong>Email:</strong> info@example.com<br>
             </p>
           </div>
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Bagaimana Pendapatmu Tentang Kami</h4>
+            <p></p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Kirim">
+            </form>
+          </div>
+          
 
         </div>
       </div>

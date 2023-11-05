@@ -61,11 +61,11 @@
               <li><a class="nav-link scrollto" href='kolam'>Unit Usaha Kolam Renang</a></li>
               <li><a class="nav-link scrollto" href='beras'>Produksi Beras Sleman</a></li>
               <li><a class="nav-link scrollto" href='toko'>Toko Desa</a></li>
-              <li><a class="nav-link scrollto " href='berita'>Berita</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href='mitra'>Mitra usaha </a></li>
           <li><a class="nav-link scrollto " href='ecommerce'>E-Commerce</a></li>
+          <li><a class="nav-link scrollto " href='berita'>Berita</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -82,49 +82,21 @@
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs mt-3">
-      <div class="container">
-        <!-- 
-        <ol>
-          <li><a href="index.html">Home</a></li>
-          <li>Portfolio Details</li>
-        </ol>
-        <h2>Portfolio Details</h2> -->
-
-      </div>
-    </section><!-- End Breadcrumbs -->
-
     <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
+    <section id="portfolio-details" class="portfolio-details mt-5">
       <div class="container">
 
-        <div class="row gy-4">
+        <div class="row d-flex align-items-center justify-content-center gy-4">
 
-          <div class="col-lg-8">
-            <div class="portfolio-details swiper">
-              <div class="swiper-wrapper align-items-center">
+          <div class="col-12 col-lg-8 col-md-12 col-sm-12">
 
                 <div class="swiper-slide">
-                  <iframe width="710" height="400" src="https://www.youtube.com/embed/khd7bXyCNas?si=wkJdEbdgYCnBmm0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <iframe width="100%" height="400" src="https://www.youtube.com/embed/khd7bXyCNas?si=wkJdEbdgYCnBmm0o" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "></iframe>
                 </div>
-                <!-- 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-3.jpg" alt="">
-                </div> -->
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
+              
           </div>
 
           <div class="col-lg-4">
-            <div class="portfolio-info">
-            </div>
             <div class="portfolio-description">
               <h2>UNIT PENGELOLAH SAMPAH</h2>
               <p>
@@ -133,16 +105,76 @@
               </p>
             </div>
           </div>
-
         </div>
-
       </div>
-    </section><!-- End Portfolio Details Section -->
+    </section>
+    <!-- End Details Section -->
+
+    <!-- Dokumentasi Pengelolaan Sampah  -->
+    <section class="pt-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="text-center">Dokumentasi TPST Pandowoharjo</h2>
+            <P> </P>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center g-4">
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/TPST/TPST1.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/TPST/TPST8.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/TPST/TPST6.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/TPST/TPST4.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/TPST/TPST5.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/TPST/TPST3.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/TPST/TPST9.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/TPST/TPST7.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/TPST/TPST10.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dokumentasi Pengelolaan Sampah -->
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
+ <!-- ======= Footer ======= -->
+ <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -170,13 +202,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#Pengurus">Pengurus BUMDes</a></li>
             </ul>
           </div>
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Alamat</h4>
             <p>
@@ -186,6 +211,14 @@
               <strong>Email:</strong> info@example.com<br>
             </p>
           </div>
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Bagaimana Pendapatmu Tentang Kami</h4>
+            <p></p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Kirim">
+            </form>
+          </div>
+          
 
         </div>
       </div>

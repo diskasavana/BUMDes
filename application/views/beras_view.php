@@ -139,9 +139,64 @@
     </section><!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
+  <section class="pt-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-14">
+            <h2 class="text-center">Dokumentasi Produksi Beras Sleman Pandowoharjo</h2>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center g-4">
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/BERAS/BERAS1.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/BERAS/BERAS2.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/BERAS/BERAS3.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/BERAS/BERAS4.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/BERAS/BERAS5.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/BERAS/BERAS6.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/BERAS/BERAS7.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/BERAS/BERAS8.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="<?= base_url('assets/img/BERAS/BERAS9.jpg') ?>" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ <!-- ======= Footer ======= -->
+ <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -169,13 +224,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#Pengurus">Pengurus BUMDes</a></li>
             </ul>
           </div>
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Alamat</h4>
             <p>
@@ -185,6 +233,14 @@
               <strong>Email:</strong> info@example.com<br>
             </p>
           </div>
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Bagaimana Pendapatmu Tentang Kami</h4>
+            <p></p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Kirim">
+            </form>
+          </div>
+          
 
         </div>
       </div>
