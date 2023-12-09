@@ -29,6 +29,13 @@
   <link href="<?= base_url('assets/css/custom.css') ?>" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/responsive.css') ?>">
 
+  <style>
+    #carousel1{
+      top: 60%;
+      transform: translateY(-60%);
+    }
+  </style>
+
 
   <!-- =======================================================
   * Template Name: Scaffold
@@ -83,50 +90,83 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <div class="video-container">
+  <div id="carouselExampleInterval" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="video-container d-block w-100">
       <iframe src="https://www.youtube.com/embed/JVtsM0cr-Uc?si=4doO9tYNCNwz7Qa4&modestbranding=0&rel=0"  frameborder="0" allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </section><!-- End Hero -->
-
-  <section id="content">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
-          <div>
-            <h2 style="font-size: 2rem;">Bergerak Bersama Masyarakat</h2>
-            <P style="font-size: 1.5rem;">Kerja sama BUMDes dengan Universitas Amikom Yogyakarta</P>
-            <!-- <a href="<?php echo base_url('login'); ?>" class="btn btn-primary">Get Started</a> -->
-          </div>
-        </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img ml-auto" data-aos="fade-left" style="margin-right: -30px;">
-          <img src="<?= base_url('assets/img/Hero.jpg') ?>" class="img-fluid" alt="" style="max-width: 100%; height: 100%;">
-        </div>
       </div>
     </div>
-  </section>
+    <div class="carousel-item">
+      <img src="<?= base_url('assets/img/Hero.jpg') ?>" class="d-block w-100" alt="" style="max-width: 100%; height: 100%;">
+      <div id="carousel1" class="carousel-caption my-auto">
+        <h5 class="display-1 fw-bolder fs-1 text-capitalize">Bergerak Bersama Masyarakat</h5>
+        <!-- <button class="text-uppercase fs-3 mt-5 btn btn-success px-4 py-2 fs-5 mt-5">Baca Selengkapnya</button> -->
+        <p>Kerja sama BUMDES dengan Universitas Amikom Yogyarta</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="<?= base_url('assets/img/Hero.jpg') ?>" class="d-block w-100" alt="" style="max-width: 100%; height: 100%;">
+      <div id="carousel1" class="carousel-caption my-auto">
+        <h5 class="display-1 fw-bolder fs-2 text-capitalize">Tentang Kami</h5>
+        <a href="<?= base_url('detail'); ?>" class="text-capitalize mt-2 btn btn-primary btn-sm">Baca Selengkapnya</a>
+        <!-- <p>Kerja sama BUMDES dengan Universitas Amikom Yogyarta</p> -->
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <!-- <div class="video-container"> -->
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JVtsM0cr-Uc?si=q_zbXmZuX6XawWJL&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+      <!-- <iframe src="https://www.youtube.com/embed/JVtsM0cr-Uc?si=4doO9tYNCNwz7Qa4&modestbranding=0&rel=0"  frameborder="0" allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <!-- </div> -->
+  </section><!-- End Hero -->
+<!-- 
+  <section id="content" class="jumbotron text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 pt-5 pt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up">
+        <div>
+          <h2 class="display-4">Bergerak Bersama Masyarakat</h2>
+          <p class="lead">Kerja sama BUMDes dengan Universitas Amikom Yogyakarta</p> -->
+          <!-- <a href="<?php echo base_url('login'); ?>" class="btn btn-primary btn-lg">Get Started</a> -->
+        <!-- </div>
+      </div>
+      <div class="col-lg-6 hero-img" data-aos="fade-left">
+        <img src="<?= base_url('assets/img/Hero.jpg') ?>" class="img-fluid" alt="" style="max-width: 100%; height: 100%;">
+      </div>
+    </div>
+  </div>
+</section> -->
 
 
-  <main id="main">
+
+<main id="main" class="jumbotron">
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="row">
-          <div class="row no-gutters">
-            <div class="col-md-6" data-aos="zoom-in">
-              <img src="<?= base_url('assets/img/Logo-img.png') ?>" class="card-img" alt="Gambar Card" style="float: left;">
+    <!-- <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" data-aos="zoom-in">
+                    <img src="<?= base_url('assets/img/Logo-img.png') ?>" class="card-img" alt="Gambar Card" style="float: left;">
+                </div>
+                <div class="col-lg-6 pt-5 pt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up">
+                    <div>
+                        <h1 class="display-4">Tentang BUMDesa</h1>
+                        <p class="lead">BUMDesa Amarta Pandowoharjo merupakan suatu kumpulan dari usaha-usaha yang berlokasikan di Desa Pandowoharjo, Kec. Sleman. Kab. Sleman. Yogyakarta. Berdiri sejak tahun 2016</p>
+                        <a href="<?php echo base_url('detail'); ?>" class="btn btn-primary btn-lg">Baca Selengkapnya</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
-              <div>
-                <h1>Tentang BUMDesa</h1>
-                <h5>BUMDesa Amarta Pandowoharjo merupakan suatu kumpulan dari usaha-usaha yang berlokasikan di Desa Pandowoharjo, Kec. Sleman. Kab. Sleman. Yogyakarta. Berdiri sejak tahun 2016</h5>
-                <a href="<?php echo base_url('detail'); ?>" class="btn btn-primary">Baca Selengkapnya</a>
-              </div>
-            </div>
-          </div>
         </div>
-    </section>
+    </section> -->
     <!-- End About Section -->
-
 
     <!-- ======= Team Section ======= -->
     <section id="Pengurus" class="team">
@@ -300,7 +340,7 @@
             <p> Tidak tahu harus mulai dari mana? Beri tahu kami tentang pertanyaan, saran, dan keluhan Anda disini.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">087838523909</a>
+            <a class="cta-btn align-middle" href="https://wa.me/6287838523909">087838523909</a>
           </div>
         </div>
       </div>
@@ -489,11 +529,10 @@
               <input type="email" name="email"><input type="submit" value="Kirim">
             </form>
           </div>
-          
-
         </div>
       </div>
     </div>
+    
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>BUMDes</span></strong>. All Rights Reserved

@@ -35,6 +35,11 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    .clients > .client-logo{
+      padding: 0;
+    }
+  </style>
 </head>
 
 <!-- ======= Header ======= -->
@@ -88,7 +93,7 @@
     </div>
     <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
       <div class="col-lg-3 col-md-4 col-xs-6">
-        <div class="client-logo" style="margin-top: 2rem;" data-aos="zoom-in" data-aos-delay="100">
+        <div class="client-logo" style="zoom-in" data-aos="zoom-in" data-aos-delay="100">
           <img src="assets/img/Mitra/BRI.jpg" class="img-fluid" alt="">
         </div>
       </div>
@@ -135,8 +140,8 @@
             <h4>Tentang kami</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="welcome">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#Pengurus">Pengurus BUMDes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="welcome#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="welcome#Pengurus">Pengurus BUMDes</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 footer-links">
@@ -149,11 +154,28 @@
             </p>
           </div>
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Bagaimana Pendapatmu Tentang Kami</h4>
+            <!-- <h4>Bagaimana Pendapatmu Tentang Kami</h4>
             <p></p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Kirim">
-            </form>
+            </form> -->
+            <h4>Mitra Kami</h4>
+
+            <div class="row">
+              <div class="col">
+                <img src="assets/img/Mitra/BRI.jpg" class="img-fluid" alt="">
+              </div>
+            
+              <div class="col">
+                <img src="assets/img/Mitra/PRSI.png" class="img-fluid" alt="">
+              </div>
+              <div class="col">
+                <img src="assets/img/Mitra/jejamuran.png" class="img-fluid" alt="">
+              </div>
+              <div class="col">
+                <img src="assets/img/Mitra/sampoerna.png" class="img-fluid" alt="">
+              </div>
+          </div> 
           </div>
           
 
