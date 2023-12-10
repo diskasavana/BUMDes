@@ -140,63 +140,63 @@
 
   </main><!-- End #main -->
   <section class="pt-0">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-14">
-            <h2 class="text-center">Dokumentasi Toko Desa Pandowoharjo</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-14">
+          <h2 class="text-center">Dokumentasi Toko Desa Pandowoharjo</h2>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 justify-content-center g-4">
+        <div class="col">
+          <div class="card">
+            <img src="<?= base_url('assets/img/TOKO/TOKO1.jpg') ?>" class="card-img-top" alt="...">
           </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 justify-content-center g-4">
-          <div class="col">
-            <div class="card">
-              <img src="<?= base_url('assets/img/TOKO/TOKO1.jpg') ?>" class="card-img-top" alt="...">
-            </div>
+        <div class="col">
+          <div class="card">
+            <img src="<?= base_url('assets/img/TOKO/TOKO2.jpg') ?>" class="card-img-top" alt="...">
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="<?= base_url('assets/img/TOKO/TOKO2.jpg') ?>" class="card-img-top" alt="...">
-            </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="<?= base_url('assets/img/TOKO/TOKO3.jpg') ?>" class="card-img-top" alt="...">
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="<?= base_url('assets/img/TOKO/TOKO3.jpg') ?>" class="card-img-top" alt="...">
-            </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="<?= base_url('assets/img/TOKO/TOKO4.jpg') ?>" class="card-img-top" alt="...">
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="<?= base_url('assets/img/TOKO/TOKO4.jpg') ?>" class="card-img-top" alt="...">
-            </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="<?= base_url('assets/img/TOKO/TOKO5.jpg') ?>" class="card-img-top" alt="...">
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="<?= base_url('assets/img/TOKO/TOKO5.jpg') ?>" class="card-img-top" alt="...">
-            </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="<?= base_url('assets/img/TOKO/TOKO6.jpg') ?>" class="card-img-top" alt="...">
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="<?= base_url('assets/img/TOKO/TOKO6.jpg') ?>" class="card-img-top" alt="...">
-            </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="<?= base_url('assets/img/TOKO/TOKO7.jpg') ?>" class="card-img-top" alt="...">
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="<?= base_url('assets/img/TOKO/TOKO7.jpg') ?>" class="card-img-top" alt="...">
-            </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="<?= base_url('assets/img/TOKO/TOKO8.jpg') ?>" class="card-img-top" alt="...">
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="<?= base_url('assets/img/TOKO/TOKO8.jpg') ?>" class="card-img-top" alt="...">
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="<?= base_url('assets/img/TOKO/TOKO9.jpg') ?>" class="card-img-top" alt="...">
-            </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="<?= base_url('assets/img/TOKO/TOKO9.jpg') ?>" class="card-img-top" alt="...">
           </div>
         </div>
       </div>
-    </section>
- <!-- ======= Footer ======= -->
- <footer id="footer">
+    </div>
+  </section>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -220,7 +220,7 @@
             <h4>Tentang kami</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="welcome">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="welcome#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="detail">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="welcome#Pengurus">Pengurus BUMDes</a></li>
             </ul>
           </div>
@@ -234,17 +234,33 @@
             </p>
           </div>
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Bagaimana Pendapatmu Tentang Kami</h4>
+            <!-- <h4>Bagaimana Pendapatmu Tentang Kami</h4>
             <p></p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Kirim">
-            </form>
-          </div>
-          
+            </form> -->
+            <h4>Mitra Kami</h4>
 
+            <div class="row">
+              <div class="col">
+                <img src="assets/img/Mitra/BRI.jpg" class="img-fluid" alt="">
+              </div>
+
+              <div class="col">
+                <img src="assets/img/Mitra/PRSI.png" class="img-fluid" alt="">
+              </div>
+              <div class="col">
+                <img src="assets/img/Mitra/jejamuran.png" class="img-fluid" alt="">
+              </div>
+              <div class="col">
+                <img src="assets/img/Mitra/sampoerna.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>BUMDes</span></strong>. All Rights Reserved

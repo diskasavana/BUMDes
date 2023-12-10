@@ -130,7 +130,7 @@
       <!-- ======= Features Section ======= -->
       <section id="features" class="features">
         <div class="container">
-          <div class="row text-center align-items-center">
+          <div class="row text- align-items-center">
             <div class="col-lg-6 mt-4 mb-lg-0 order-2 order-lg-1">
               <ul class="nav nav-tabs flex-column">
                 <li class="nav-item" data-aos="fade-up">
@@ -234,7 +234,7 @@
                 <h4>Tentang kami</h4>
                 <ul>
                   <li><i class="bx bx-chevron-right"></i> <a href="welcome">Home</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="welcome#about">About us</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="detail">About us</a></li>
                   <li><i class="bx bx-chevron-right"></i> <a href="welcome#Pengurus">Pengurus BUMDes</a></li>
                 </ul>
               </div>
@@ -248,11 +248,28 @@
                 </p>
               </div>
               <div class="col-lg-4 col-md-6 footer-newsletter">
-                <h4>Bagaimana Pendapatmu Tentang Kami</h4>
-                <p></p>
-                <form action="" method="post">
-                  <input type="email" name="email"><input type="submit" value="Kirim">
-                </form>
+                <!-- <h4>Bagaimana Pendapatmu Tentang Kami</h4>
+            <p></p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Kirim">
+            </form> -->
+                <h4>Mitra Kami</h4>
+
+                <div class="row">
+                  <div class="col">
+                    <img src="assets/img/Mitra/BRI.jpg" class="img-fluid" alt="">
+                  </div>
+
+                  <div class="col">
+                    <img src="assets/img/Mitra/PRSI.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col">
+                    <img src="assets/img/Mitra/jejamuran.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col">
+                    <img src="assets/img/Mitra/sampoerna.png" class="img-fluid" alt="">
+                  </div>
+                </div>
               </div>
 
 

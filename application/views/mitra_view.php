@@ -36,7 +36,7 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   <style>
-    .clients > .client-logo{
+    .clients>.client-logo {
       padding: 0;
     }
   </style>
@@ -114,9 +114,10 @@
       </div>
     </div>
   </div>
+</section>
 
- <!-- ======= Footer ======= -->
- <footer id="footer">
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -140,7 +141,7 @@
             <h4>Tentang kami</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="welcome">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="welcome#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="detail">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="welcome#Pengurus">Pengurus BUMDes</a></li>
             </ul>
           </div>
@@ -165,7 +166,7 @@
               <div class="col">
                 <img src="assets/img/Mitra/BRI.jpg" class="img-fluid" alt="">
               </div>
-            
+
               <div class="col">
                 <img src="assets/img/Mitra/PRSI.png" class="img-fluid" alt="">
               </div>
@@ -175,9 +176,9 @@
               <div class="col">
                 <img src="assets/img/Mitra/sampoerna.png" class="img-fluid" alt="">
               </div>
-          </div> 
+            </div>
           </div>
-          
+
 
         </div>
       </div>
@@ -209,6 +210,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-</body>
+  </body>
 
 </html>

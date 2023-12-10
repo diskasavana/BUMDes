@@ -220,7 +220,7 @@
             <h4>Tentang kami</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="welcome">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="welcome#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="detail">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="welcome#Pengurus">Pengurus BUMDes</a></li>
             </ul>
           </div>
@@ -234,13 +234,29 @@
             </p>
           </div>
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Bagaimana Pendapatmu Tentang Kami</h4>
+            <!-- <h4>Bagaimana Pendapatmu Tentang Kami</h4>
             <p></p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Kirim">
-            </form>
+            </form> -->
+            <h4>Mitra Kami</h4>
+
+            <div class="row">
+              <div class="col">
+                <img src="assets/img/Mitra/BRI.jpg" class="img-fluid" alt="">
+              </div>
+            
+              <div class="col">
+                <img src="assets/img/Mitra/PRSI.png" class="img-fluid" alt="">
+              </div>
+              <div class="col">
+                <img src="assets/img/Mitra/jejamuran.png" class="img-fluid" alt="">
+              </div>
+              <div class="col">
+                <img src="assets/img/Mitra/sampoerna.png" class="img-fluid" alt="">
+              </div>
+          </div> 
           </div>
-          
 
         </div>
       </div>

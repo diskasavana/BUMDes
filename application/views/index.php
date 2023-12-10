@@ -30,7 +30,7 @@
   <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/responsive.css') ?>">
 
   <style>
-    #carousel1{
+    #carousel1 {
       top: 60%;
       transform: translateY(-60%);
     }
@@ -90,45 +90,47 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-  <div id="carouselExampleInterval" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="video-container d-block w-100">
-      <iframe src="https://www.youtube.com/embed/JVtsM0cr-Uc?si=4doO9tYNCNwz7Qa4&modestbranding=0&rel=0"  frameborder="0" allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id="carouselExampleInterval" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="video-container d-block w-100">
+            <iframe src="https://www.youtube.com/embed/JVtsM0cr-Uc?si=4doO9tYNCNwz7Qa4&modestbranding=0&rel=0" frameborder="0" allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="<?= base_url('assets/img/Hero.jpg') ?>" class="d-block w-100" alt="" style="max-width: 100%; height: 100%;">
+          <div id="carousel1" class="carousel-caption my-auto">
+            <h5 class="display-1 fw-bolder fs-1 text-capitalize">Bergerak Bersama Masyarakat</h5>
+            <!-- <button class="text-uppercase fs-3 mt-5 btn btn-success px-4 py-2 fs-5 mt-5">Baca Selengkapnya</button> -->
+            <p>Kerja sama BUMDES dengan Universitas Amikom Yogyarta</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="<?= base_url('assets/img/new.png') ?>" class="d-block w-100" alt="" style="max-width: 100%; height: 100%;">
+          <div id="carousel1" class="carousel-caption my-auto" style="margin-right: -500px;">
+          <h5 class="display-1 fw-bolder fs-1 text-capitalize" style="font-weight: bold; font-size: 40em;">Tentang Kami</h5>
+            <a href="<?= base_url('detail'); ?>" class="text-capitalize mt-2 btn btn-primary btn-sm" style="margin-right: 10px;">Baca Selengkapnya</a>
+            <!-- <p>Kerja sama BUMDES dengan Universitas Amikom Yogyarta</p> -->
+          </div>
+        </div>
+
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="<?= base_url('assets/img/Hero.jpg') ?>" class="d-block w-100" alt="" style="max-width: 100%; height: 100%;">
-      <div id="carousel1" class="carousel-caption my-auto">
-        <h5 class="display-1 fw-bolder fs-1 text-capitalize">Bergerak Bersama Masyarakat</h5>
-        <!-- <button class="text-uppercase fs-3 mt-5 btn btn-success px-4 py-2 fs-5 mt-5">Baca Selengkapnya</button> -->
-        <p>Kerja sama BUMDES dengan Universitas Amikom Yogyarta</p>
-      </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
     </div>
-    <div class="carousel-item">
-      <img src="<?= base_url('assets/img/Hero.jpg') ?>" class="d-block w-100" alt="" style="max-width: 100%; height: 100%;">
-      <div id="carousel1" class="carousel-caption my-auto">
-        <h5 class="display-1 fw-bolder fs-2 text-capitalize">Tentang Kami</h5>
-        <a href="<?= base_url('detail'); ?>" class="text-capitalize mt-2 btn btn-primary btn-sm">Baca Selengkapnya</a>
-        <!-- <p>Kerja sama BUMDES dengan Universitas Amikom Yogyarta</p> -->
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
     <!-- <div class="video-container"> -->
     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JVtsM0cr-Uc?si=q_zbXmZuX6XawWJL&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-      <!-- <iframe src="https://www.youtube.com/embed/JVtsM0cr-Uc?si=4doO9tYNCNwz7Qa4&modestbranding=0&rel=0"  frameborder="0" allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <!-- <iframe src="https://www.youtube.com/embed/JVtsM0cr-Uc?si=4doO9tYNCNwz7Qa4&modestbranding=0&rel=0"  frameborder="0" allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
     <!-- </div> -->
   </section><!-- End Hero -->
-<!-- 
+  <!-- 
   <section id="content" class="jumbotron text-center">
   <div class="container">
     <div class="row">
@@ -136,8 +138,8 @@
         <div>
           <h2 class="display-4">Bergerak Bersama Masyarakat</h2>
           <p class="lead">Kerja sama BUMDes dengan Universitas Amikom Yogyakarta</p> -->
-          <!-- <a href="<?php echo base_url('login'); ?>" class="btn btn-primary btn-lg">Get Started</a> -->
-        <!-- </div>
+  <!-- <a href="<?php echo base_url('login'); ?>" class="btn btn-primary btn-lg">Get Started</a> -->
+  <!-- </div>
       </div>
       <div class="col-lg-6 hero-img" data-aos="fade-left">
         <img src="<?= base_url('assets/img/Hero.jpg') ?>" class="img-fluid" alt="" style="max-width: 100%; height: 100%;">
@@ -148,7 +150,7 @@
 
 
 
-<main id="main" class="jumbotron">
+  <main id="main" class="jumbotron">
     <!-- ======= About Section ======= -->
     <!-- <section id="about" class="about">
         <div class="container">
@@ -509,8 +511,8 @@
             <h4>Tentang kami</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="welcome">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#Pengurus">Pengurus BUMDes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="detail">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="welcome#Pengurus">Pengurus BUMDes</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 footer-links">
@@ -523,16 +525,33 @@
             </p>
           </div>
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Bagaimana Pendapatmu Tentang Kami</h4>
+            <!-- <h4>Bagaimana Pendapatmu Tentang Kami</h4>
             <p></p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Kirim">
-            </form>
+            </form> -->
+            <h4>Mitra Kami</h4>
+
+            <div class="row">
+              <div class="col">
+                <img src="assets/img/Mitra/BRI.jpg" class="img-fluid" alt="">
+              </div>
+
+              <div class="col">
+                <img src="assets/img/Mitra/PRSI.png" class="img-fluid" alt="">
+              </div>
+              <div class="col">
+                <img src="assets/img/Mitra/jejamuran.png" class="img-fluid" alt="">
+              </div>
+              <div class="col">
+                <img src="assets/img/Mitra/sampoerna.png" class="img-fluid" alt="">
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    
+
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>BUMDes</span></strong>. All Rights Reserved
