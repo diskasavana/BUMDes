@@ -98,14 +98,6 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="<?= base_url('assets/img/Hero.jpg') ?>" class="d-block w-100" alt="" style="max-width: 100%; height: 100%;">
-          <div id="carousel1" class="carousel-caption my-auto">
-            <h5 class="display-1 fw-bolder fs-1 text-capitalize">Bergerak Bersama Masyarakat</h5>
-            <!-- <button class="text-uppercase fs-3 mt-5 btn btn-success px-4 py-2 fs-5 mt-5">Baca Selengkapnya</button> -->
-            <p>Kerja sama BUMDES dengan Universitas Amikom Yogyarta</p>
-          </div>
-        </div>
-        <div class="carousel-item">
           <img src="<?= base_url('assets/img/new.png') ?>" class="d-block w-100" alt="" style="max-width: 100%; height: 100%;">
           <div id="carousel1" class="carousel-caption my-auto" style="margin-right: -500px;">
           <h5 class="display-1 fw-bolder fs-1 text-capitalize" style="font-weight: bold; font-size: 40em;">Tentang Kami</h5>
@@ -113,7 +105,14 @@
             <!-- <p>Kerja sama BUMDES dengan Universitas Amikom Yogyarta</p> -->
           </div>
         </div>
-
+        <div class="carousel-item">
+          <img src="<?= base_url('assets/img/Hero.jpg') ?>" class="d-block w-100" alt="" style="max-width: 100%; height: 100%;">
+          <div id="carousel1" class="carousel-caption my-auto">
+            <h5 class="display-1 fw-bolder fs-1 text-capitalize">Bergerak Bersama Masyarakat</h5>
+            <!-- <button class="text-uppercase fs-3 mt-5 btn btn-success px-4 py-2 fs-5 mt-5">Baca Selengkapnya</button> -->
+            <p>Kerja sama BUMDES dengan Universitas Amikom Yogyarta</p>
+          </div>
+        </div>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -201,7 +200,7 @@
                 <span>Bendahara Bumdes Amarta</span>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100064683969849&_rdc=1&_rdr" class="facebook"><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -500,7 +499,7 @@
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100064683969849&_rdc=1&_rdr" class="facebook"><i class="bi bi-facebook"></i></a>
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                 <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
