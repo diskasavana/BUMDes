@@ -507,7 +507,7 @@
             </div>
           </div>
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Tentang kami</h4>
+            <h4>Tentang Kami</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="welcome">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="detail">About us</a></li>
