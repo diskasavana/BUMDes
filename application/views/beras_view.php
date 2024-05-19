@@ -106,7 +106,7 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <iframe width="710" height="400" src="https://www.youtube.com/embed/DzlUUkyZONk?si=2FAtpijijVZ0v_Vn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <iframe width="710" height="400" src="https://www.youtube.com/embed/6DF6o9mcGuM?si=bexlfCUJv5pw8lNz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <!-- 
                 <div class="swiper-slide">
